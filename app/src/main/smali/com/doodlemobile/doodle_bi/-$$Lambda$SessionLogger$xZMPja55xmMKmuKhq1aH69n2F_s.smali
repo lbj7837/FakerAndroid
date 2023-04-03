@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/doodlemobile/doodle_bi/-$$Lambda$SessionLogger$xZMPja55xmMKmuKhq1aH69n2F_s;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/doodlemobile/doodle_bi/SessionLogger;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/doodlemobile/doodle_bi/SessionLogger;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/doodlemobile/doodle_bi/-$$Lambda$SessionLogger$xZMPja55xmMKmuKhq1aH69n2F_s;->f$0:Lcom/doodlemobile/doodle_bi/SessionLogger;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/doodlemobile/doodle_bi/-$$Lambda$SessionLogger$xZMPja55xmMKmuKhq1aH69n2F_s;->f$0:Lcom/doodlemobile/doodle_bi/SessionLogger;
+
+    invoke-virtual {v0}, Lcom/doodlemobile/doodle_bi/SessionLogger;->lambda$startSession$1$SessionLogger()V
+
+    return-void
+.end method
